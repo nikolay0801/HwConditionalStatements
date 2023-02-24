@@ -1,13 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int ears = 18;
-        System.out.println("Если возраст человека равен 18, то он совершеннолетний");
-        int earsI = 17;
-        if ( earsI >= 18) {
-            System.out.println("Если возраст человека больше 18, то он совершеннолетний");
-        } else
-    System.out.println("Если возраст человека равен 17, то он несовершеннолетний");}
-}
+        int airTemperature = 5;
+        if (airTemperature <= 5) {
+            System.out.println("На улице холодно, нужно надеть шапку, если температура ниже 5 градусов.");
+        }
+        boolean b = airTemperature >= 5;
+        int temperature = 5; {
+            System.out.println("Сегодня тепло, можно идти без шапки, если температура воздуха выше 5 градусов.");
+        }
+        }
+    }
+
 
 
 
