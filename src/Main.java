@@ -1,12 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int places = 102;
-        int places1 = 60;
-        if (places <= 60) {
-            System.out.println("В вагоне нет свободных мест");
+    int one = 1;
+    int two= 2;
+    int trhee= 3;
+    if (trhee <2) {
+            System.out.println("Это число больше 1 и двух");
         } else {
-            System.out.println("В вагоне еще есть 42 свободных места");
-        }
+        System.out.println("Число 3,больше 2 и 1");
+    }
     }
 }
 
