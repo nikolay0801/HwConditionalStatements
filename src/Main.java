@@ -1,15 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        int airTemperature = 5;
-        if (airTemperature <= 5) {
-            System.out.println("На улице холодно, нужно надеть шапку, если температура ниже 5 градусов.");
+        int speedKm = 60;
+        if (speedKm >= 60) {
+            System.out.println("Если скорость  больше 60 км/ч, то придется заплатить штраф.");
         }
-        boolean b = airTemperature >= 5;
-        int temperature = 5; {
-            System.out.println("Сегодня тепло, можно идти без шапки, если температура воздуха выше 5 градусов.");
-        }
+        boolean b = speedKm <= 60;
+        if (speedKm <= 60) {
+            System.out.println("Если скорость не привышает или ровна 60 км/ч, то можно ездить спокойно");
         }
     }
+}
+
+
 
 
 
